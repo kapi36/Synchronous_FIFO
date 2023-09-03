@@ -37,4 +37,3 @@ FIFO read Operation: FIFO can read the data when posedge comes and r_en is on an
 
 
 
-In summary, this code checks if the FIFO is full. If it's not full, it pushes data into the FIFO by setting some variables and ensuring that the write operation is synchronized with the clock signal. If the FIFO is full, it displays a message indicating that no more data can be pushed.
